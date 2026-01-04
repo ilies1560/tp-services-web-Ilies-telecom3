@@ -25,13 +25,12 @@ domains/
 
 cat >> .gitignore <<'EOF'
 
-# Build outputs (à ne jamais versionner)
+# Build outputs
 **/target/
 **/build/
 **/classes/
 **/*.class
 
-# IntelliJ / Eclipse
 **/.idea/
 **/*.iml
 **/.settings/
