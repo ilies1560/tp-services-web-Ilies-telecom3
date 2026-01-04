@@ -22,3 +22,17 @@ classes/
 
 # Payara/Glassfish domains
 domains/
+
+cat >> .gitignore <<'EOF'
+
+# Build outputs (à ne jamais versionner)
+**/target/
+**/build/
+**/classes/
+**/*.class
+
+# IntelliJ / Eclipse
+**/.idea/
+**/*.iml
+**/.settings/
+EOF
