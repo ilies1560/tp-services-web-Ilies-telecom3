@@ -1,0 +1,20 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Payara/Glassfish domains
+domains/

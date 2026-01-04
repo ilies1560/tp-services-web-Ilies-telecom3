@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Calculator</title></head>
+<body>
+<form method="get" action="rest/add">
+<p>a <input name="a"></p>
+<p>b <input name="b"></p>
+<input type="submit" value="GET add?a=&b=">
+</form>
+
+<form method="post" action="rest/add">
+<p>a <input name="a"></p>
+<p>b <input name="b"></p>
+<input type="submit" value="POST add (JSON)">
+</form>
+
+<form method="post" action="rest/multiply">
+<p>a <input name="a"></p>
+<p>b <input name="b"></p>
+<input type="submit" value="POST multiply (XML)">
+</form>
+
+<form method="post" action="rest/divise">
+<p>a <input name="a"></p>
+<p>b <input name="b"></p>
+<input type="submit" value="POST divise (JSON)">
+</form>
+</body>
+</html>
